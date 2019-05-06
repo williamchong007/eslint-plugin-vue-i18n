@@ -77,7 +77,7 @@ describe('no-html-messages', () => {
       })
 
       const messages = linter.executeOnFiles(['.'])
-      assert.equal(messages.errorCount, 3)
+      assert.equal(messages.errorCount, 6)
 
       function checkRuleId (path) {
         const fullPath = resolve(__dirname, path)

@@ -3,6 +3,15 @@
   "hi": "Hi! DIO!",
   "contents": {
     "banner": "banner: {0}",
-    "modal": "modal: {0}"
+    "modal": "modal: {0}",
+    "array": [
+      "text in array: {0}",
+      {
+        "object": "object in array: {0}"
+      },
+      [
+        "nested array: {0}"
+      ]
+    ]
   }
 }
